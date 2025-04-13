@@ -1,0 +1,450 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+  }
+ 
+  .entete {
+    background: linear-gradient(#27C0EF, #00A8DB);
+    padding: 30px 60px;
+    color: white;
+    height: 600px;
+  }
+  
+  .home{
+    width: 423px;
+    height: 22px;
+    margin-right: 40px;
+   
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.divcnx{
+  display: flex;
+  align-items: center;
+}
+
+  .logo {
+    width: 60px;
+  }
+  
+  .liens {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+  
+  .liens a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  
+  .btncnx {
+    background: linear-gradient(90deg, #00A8DB, #006CBE);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .divmaman1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+   
+  }
+  
+  .titleprincipal {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.3;
+    margin-bottom: 20px;
+  }
+  
+  
+  .texte {
+    font-size: 16px;
+    color: #8EA9C1;
+    margin-bottom: 30px;
+  }
+
+  .texte1 {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .boutons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .bouton-blanc {
+    background-color: white;
+    color: #00A8DB;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .demo {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .imageov {
+    width: 738px;
+    margin-top: -585px;
+    margin-left: 783px;
+    
+  }
+  
+  .divparten {
+    background-color: white;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    margin-top: -190px;
+  }
+  
+  .logoparten {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .logoparten img {
+    height: 30px;
+    opacity: 0.7;
+  }
+  
+  .divtelephone {
+    background-color: white;
+    padding: 80px 60px;
+  }
+  
+  .contenutel {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+  
+  .telephones {
+    position: relative;
+    max-width: 480px;
+  }
+  
+  .tel-gauche {
+    position: absolute;
+    left: 300px;
+    top: 20px;
+    width: 200px;
+    z-index: 1;
+  }
+  
+  .tel-droite {
+    position: relative;
+    width: 365px;
+    margin-left: 115px;
+  }
+  
+  .texte-graphique {
+    max-width: 500px;
+  }
+  
+  .titre {
+    font-size: 28px;
+    color: #1a3365;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 15px;
+    color: #4a4a4a;
+    margin-bottom: 25px;
+  }
+  
+  .learn {
+    color: #00A8DB;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .divplanification {
+    background-color: white;
+    padding: 80px 60px;
+  }
+  
+  .ctnplanification {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+  
+  .fonctionnalites {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+  }
+  
+  .fonctionnalites li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    color: #4a4a4a;
+  }
+  
+  .fonctionnalites img {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .macbook {
+    width: 566px;
+    height: 384px;
+  }
+  
+  .divhashtags {
+    background-color: #eaf8ff;
+    padding: 80px 60px;
+    text-align: center;
+  }
+  
+  .contenuhash {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .divcartes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 30px;
+    justify-items: center;
+  }
+  
+  .carte {
+    background-color: white;
+    border-radius: 12px;
+    padding: 30px 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+    max-width: 250px;
+    text-align: left;
+  }
+  
+  .carte img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .titrecarte {
+    font-size: 18px;
+    color: #1a3365;
+    margin-bottom: 10px;
+  }
+  
+  .textecarte {
+    font-size: 14px;
+    color: #5a5a5a;
+    line-height: 1.5;
+  }
+  
+  .section-temoignage {
+    padding: 100px 60px 60px;
+    background-color: white;
+  }
+  
+  .contenu-temoignage {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+  
+  .carte-temoignage {
+    background-color: #f7faff;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 500px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .etoiles {
+    color: #f5a623;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .texte-citation {
+    font-size: 15px;
+    color: #333;
+    font-style: italic;
+  }
+  
+  .auteur {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .photo-auteur {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .nomauteur {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .posteauteur {
+    font-size: 13px;
+    color: #777;
+    margin: 0;
+  }
+  
+  .sectionappel {
+    background: #00A8DB;
+    padding: 60px;
+    color: white;
+    border-radius: 12px;
+    max-width: 1100px;
+    margin: 80px auto 0;
+  }
+  
+  .blocappel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .titreappel {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .texteappels {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .pdp {
+    height: 37px;
+  }
+  
+  .cta-essai {
+    background-color: white;
+    color: #00A8DB;
+    border: none;
+    padding: 12px 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .pieddepage {
+    margin-top: 200px;
+    background-color: #0d1c1f;
+    color: white;
+    padding: 60px 60px 40px;
+    border-top: 4px solid #f9cb27;
+  }
+  
+  .contenufooter {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto 40px;
+  }
+  
+  .ehyadernier {
+    width: 90px;
+    height: 28px;
+  }
+  
+  .texte-footer {
+    font-size: 14px;
+    color: #bfbfbf;
+    margin-bottom: 20px;
+  }
+  
+  .logoreseaux img {
+    width: 38px;
+    height: 36px;
+    margin-right: 10px;
+  }
+  
+  .colonnefooter h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .colonnefooter ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .colonnefooter li {
+    margin-bottom: 8px;
+  }
+  
+  .colonnefooter a {
+    text-decoration: none;
+    color: #bfbfbf;
+    font-size: 14px;
+  }
+  
+  .colonnefooter a:hover {
+    text-decoration: underline;
+  }
+  
+  .bas-footer {
+    text-align: center;
+  }
+  
+  .coeurlogo {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 10px;
+  }
+  
+  .copyright {
+    font-size: 13px;
+    color: #bfbfbf;
+  }
+  
+ 
